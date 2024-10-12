@@ -37,6 +37,10 @@ body {
   line-height: 1.5;
   font-family: 'Poppins', sans-serif;
   cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 /* A elements that don't have a class get default styles */
@@ -119,4 +123,25 @@ picture {
 .login-mess {
   color: red;
   font-weight: 400;
+}
+
+.list-category {
+  font-size: 2rem;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+
+}
+
+.list-item li {
+  font-style: 2rem;
+  list-style: none;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.list-item li:hover {
+  color: gray;
+  cursor: pointer;
 }
