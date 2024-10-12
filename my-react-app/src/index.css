@@ -110,3 +110,13 @@ picture {
   margin: 10px;
   padding: 10px;
 }
+
+.welcome-mess {
+  color: green;
+  font-weight: 400;
+}
+
+.login-mess {
+  color: red;
+  font-weight: 400;
+}
