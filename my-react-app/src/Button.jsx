@@ -1,17 +1,23 @@
 
 function Button() {
 
-    // const styles = {
-    //     backgroundColor: "black",
-    //     color: "white",
-    //     padding: "10px 20px",
-    //     borderRadius: "30px",
-    //     border: "none",
-    //     cursor: "pointer"
+    // let count = 1;
+
+    // const handleButton = (name) => {
+    //     if(count == 1) {
+    //         console.log(`${name} clicked me ${count} time`);
+    //     } else if(count < 5) {
+    //         console.log(`${name} clicked me ${count} times`)
+    //     } else {
+    //         console.log("Stop Clicking Me!")
+    //     }
+    //     count++;
     // }
 
+    const handleClick = (e) => e.target.textContent = "Ouch";
+
     return(
-        <button className="button">Click me</button>
+        <button className="button" onDoubleClick={(e) => handleClick(e)}>Click me</button>
     );
 }
 
