@@ -1,9 +1,9 @@
-import ColorPicker from "./ColorPicker";
+import UpdateObjectsState from "./UpdateObjectsState";
 
 function App() {
   return (
     <div>
-      <ColorPicker />
+      <UpdateObjectsState />
     </div>
   );
 }
