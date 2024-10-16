@@ -11,14 +11,28 @@ function UpdateObjectsState() {
     setCar((prevCar) => ({ ...prevCar, year: event.target.value }));
   }
 
+  function handleMakeChange(event) {
+    setCar((prevCar) => ({ ...prevCar, make: event.target.value }));
+  }
+
+  function handleModelChange(event) {
+    setCar((prevCar) => ({ ...prevCar, model: event.target.value }));
+  }
+
+  // Event handling
+  // State update
+  // Spread operators
+  // Updater function
+  // Onchange (inputs)
+
   return (
     <div>
       <p>
         Favorite Car: {car.year} {car.make} {car.model}
       </p>
       <input type="number" value={car.year} onChange={handleYearChange} />
-      <input type="text" value={car.make} />
-      <input type="text" value={car.model} />
+      <input type="text" value={car.make} onChange={handleMakeChange} />
+      <input type="text" value={car.model} onChange={handleModelChange} />
     </div>
   );
 }
