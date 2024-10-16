@@ -1,11 +1,5 @@
-import UpdateObjectsState from "./UpdateObjectsState";
-
 function App() {
-  return (
-    <div>
-      <UpdateObjectsState />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
