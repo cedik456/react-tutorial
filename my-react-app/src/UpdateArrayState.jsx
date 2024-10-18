@@ -7,7 +7,7 @@ function UpdateArrayState() {
     const newFruit = document.getElementById("fruitInput").value;
     document.getElementById("fruitInput").value = "";
 
-    setFruits((prevFruit) => [...prevFruit, newFruit]);
+    setFruits((f) => [...f, newFruit]); // tried it for new updater function
   }
 
   function handleRemoveFruit(index) {

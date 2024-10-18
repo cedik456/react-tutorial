@@ -1,9 +1,9 @@
-import UpdateArrayState from "./UpdateArrayState";
+import UpdateArrayofObjects from "./UpdateArrayofObjects";
 
 function App() {
   return (
     <div>
-      <UpdateArrayState />
+      <UpdateArrayofObjects />
     </div>
   );
 }
