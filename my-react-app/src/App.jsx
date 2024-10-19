@@ -1,9 +1,9 @@
-import UpdateArrayofObjects from "./UpdateArrayofObjects";
+import UseEffectReturn from "./UseEffectReturn";
 
 function App() {
   return (
     <div>
-      <UpdateArrayofObjects />
+      <UseEffectReturn />
     </div>
   );
 }
