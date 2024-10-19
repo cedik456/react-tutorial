@@ -231,3 +231,10 @@ input[type="color"] {
   display: flex;
   flex-direction: column;
 }
+
+/* Use Context */
+
+.box {
+  border: 1px solid;
+  padding: 25px;
+}

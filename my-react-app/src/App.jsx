@@ -1,9 +1,9 @@
-import UseEffectReturn from "./UseEffectReturn";
+import ComponentA from "./ComponentA";
 
 function App() {
   return (
     <div>
-      <UseEffectReturn />
+      <ComponentA />
     </div>
   );
 }
